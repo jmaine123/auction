@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Auction exercise</title>
+    <link rel="stylesheet" href="auction.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Auction</h1>
+      <div class="cars">
+        <img src="/Users/user/Desktop/day10/auction/images/hummer.jpeg" alt=""><br>
+        <h5>Highest bid:</h5>
+        <div class="current" id="highestBid">0</div><br>
+        <input type="number" id="bid"><br>
+        <button type="button" id="button1" onclick="setBid(highestBid, bid)">Set Your Bid</button><br>
+      </div>
+      <div class="cars">
+        <img src="/Users/user/Desktop/day10/auction/images/lamborghini.jpg" alt=""><br>
+        <h5>Highest bid:</h5>
+        <div class="current" id="current2">0</div><br>
+        <input type="number" id="bid2"><br>
+        <button type="button" id="button2" onclick="setBid(current2, bid2)">Set Your Bid</button><br>
+      </div>
+      <div class="cars">
+        <img src="/Users/user/Desktop/day10/auction/images/bugatti.jpeg" alt=""><br>
+        <h5>Highest Bid</h5>
+        <div class="current" id="current3">0</div><br>
+        <input type="number" id="bid3"><br>
+        <button type="button" id="button3" onclick="setBid(current3, bid3)">Set Your Bid</button><br>
+      </div>
+    </div>
+  </body>
+  <script src="auction.js">
+
+  </script>
+</html>
